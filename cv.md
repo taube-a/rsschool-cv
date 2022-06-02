@@ -1,10 +1,10 @@
 # Taube Anastasia
 
-***
+___
 
 ### Junior Full Stuck Developer
 
-***
+___
 
 ## Contact Information
 
@@ -14,7 +14,7 @@
 + **Telegram:** [@tau_16](https://t.me/tau_16)
 + **GitHub:** [taube-a](https://github.com/taube-a)
 
-***
+___
 
 ## About me
 
@@ -25,7 +25,7 @@ My goal is simple. I want to create useful projects which are make people's dail
 
 A journey of a thousand miles begins with a single step, as they say. So at first I must finish my education.  I'm sure I will be one of  the best students in both schools because i work under it even in free-time, getting better little by little every day. 
 
-***
+___
 
 ## Skills and Proficiency:
 
@@ -35,13 +35,13 @@ A journey of a thousand miles begins with a single step, as they say. So at firs
 + Django
 + SQL
 
-***
+___
 
 ## Code examples
 
 `import __hello__`
 
-***
+___
 
 ## Work expirience
 
@@ -57,7 +57,7 @@ A journey of a thousand miles begins with a single step, as they say. So at firs
 
 > The program analyzes the video in order to categorize and count vehicles of different types: from cars to trucks.
 
-***
+___
 
 ## Education
 
@@ -65,7 +65,7 @@ A journey of a thousand miles begins with a single step, as they say. So at firs
 + **April 2022 - present** - Yandex.Practicum (Python development)
 + **2016 - 2020** - Russian State Social University (Computer science and engineering)
 
-***
+___
 
 ## Language skills
 
