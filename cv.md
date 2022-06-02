@@ -37,9 +37,19 @@ ___
 
 ___
 
-## Code examples
+## Code example
 
-`import __hello__`
+#### Find the shortest word in the sentence
+
+```
+def find_short(s):
+    list = s.split()
+    l=len(list[0])
+    for word in list:
+        if len(word)<l:      
+            l=len(word)
+    return l 
+```
 
 ___
 
