@@ -1,1 +1,1 @@
-# rsschool-cv
+https://taube-a.github.io/rsschool-cv/cv
