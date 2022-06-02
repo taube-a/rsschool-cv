@@ -1,3 +1,5 @@
+![avatar](https://user-images.githubusercontent.com/102318968/171622915-6920052f-a770-4347-97cf-57973c43c1a8.jpg)
+
 # Taube Anastasia
 
 ___
@@ -12,6 +14,7 @@ ___
 + **Phone number:** +7 (996) 431-33-49
 + **E-mail:** [Taube.Anastasia@yandex.ru](<Taube.Anastasia@yandex.ru>)
 + **Telegram:** [@tau_16](https://t.me/tau_16)
++ **Discord:** Anastasia(taube-a)
 + **GitHub:** [taube-a](https://github.com/taube-a)
 
 ___
