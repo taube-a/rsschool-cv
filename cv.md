@@ -24,6 +24,7 @@ Now I am hard-working under my studying to start my IT-career. I'm a student of 
 My goal is simple. I want to create useful projects which are make people's daily life is better and easily. 
 
 A journey of a thousand miles begins with a single step, as they say. So at first I must finish my education.  I'm sure I will be one of  the best students in both schools because i work under it even in free-time, getting better little by little every day. 
+
 ***
 
 ## Skills and Proficiency:
