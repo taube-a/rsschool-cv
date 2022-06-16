@@ -15,12 +15,14 @@
     <main>
       <section class="left-section">
         <section class="profile">
-          <img class="avatar" src="https://user-images.githubusercontent.com/102318968/171622915-6920052f-a770-4347-97cf-57973c43c1a8.jpg" alt="Avatar">
+          <img class="avatar"
+            src="https://user-images.githubusercontent.com/102318968/171622915-6920052f-a770-4347-97cf-57973c43c1a8.jpg"
+            alt="Avatar">
           <h1 class="name">Taube Anastasia</h1>
           <h2 class="position">Junior Full-stack Developer</h2>
         </section>
-        <section class="contact-info">
-          <h2 class="contact-title">Contact Information</h2>
+        <section class="profile-section contact-info">
+          <h2 class="profile-title">Contact Information</h2>
           <ul>
             <li>
               <i class="bi bi-pin-map-fill"> </i>Tula, Russia
@@ -29,15 +31,16 @@
               <i class="bi bi-phone-fill"> </i>+7 (996) 431-33-49
             </li>
             <li>
-              <i class="bi bi-envelope"> </i> <a href="mailto:Taube.Anastasia@yandex.ru" target="_blank">Taube.Anastasia@yandex.ru</a>
+              <i class="bi bi-envelope"> </i> <a id="email" href="mailto:Taube.Anastasia@yandex.ru"
+                target="_blank">Taube.Anastasia@ya.ru</a>
             </li>
             <li>
               <i class="bi bi-telegram"></i> <a href="https://t.me/tau_16" target="_blank">@tau_16</a>
             </li>
             <li>
               <i class="bi bi-discord"></i> <a href="https://discord.com/invite/PRADsJB"
-                  target="_blank">Anastasia(taube-a)</a>
-              
+                target="_blank">Anastasia(taube-a)</a>
+
             </li>
             <li>
               <i class="bi-github"></i> <a href="https://github.com/taube-a" target="_blank">taube-a</a>
@@ -45,29 +48,44 @@
           </ul>
         </section>
 
-        <section class="skills">
-          <h2 class="skills-title">Skills and Proficiency</h2>
+        <section class="profile-section skills">
+          <h2 class="profile-title">Skills and Proficiency</h2>
           <ul>
             <li>
-              Basics HTML5 and CSS3
+              <p class="skill-title">Basics HTML5 and CSS3</p>
+              <div class="progress-bar">
+                <div class="progress frontend-progress"></div>
+              </div>
             </li>
             <li>
-              Git, GitHub
+              <p class="skill-title">Git, GitHub</p>
+              <div class="progress-bar">
+                <div class="progress git-progress"></div>
+              </div>
             </li>
             <li>
-              Python
+              <p class="skill-title">Python 3</p>
+              <div class="progress-bar">
+                <div class="progress python-progress"></div>
+              </div>
             </li>
             <li>
-              Django
+              <p class="skill-title">Django</p>
+              <div class="progress-bar">
+                <div class="progress django-progress"></div>
+              </div>
             </li>
             <li>
-              SQL
+              <p class="skill-title">SQL</p>
+              <div class="progress-bar">
+                <div class="progress sql-progress"></div>
+              </div>
             </li>
           </ul>
         </section>
 
-        <section class="language">
-          <h2 class="language-title">Language skills</h2>
+        <section class="profile-section language">
+          <h2 class="profile-title">Language skills</h2>
           <ul>
             <li>
               <p><span>Russian:</span> native</p>
@@ -78,10 +96,11 @@
           </ul>
         </section>
 
-        <section class="code-example">
-          <h2 class="code-example-title">Code example</h2>
-          <h3>Find the shortest word in the sentence</h3>
-          <pre><tt>def find_short(sting):
+        <section class="profile-section code-example">
+          <h2 class="profile-title">Code example</h2>
+          <div class="code-block">
+            <h3>Find the shortest word</h3>
+            <pre><tt>def find_short(sting):
   word_list = string.split()
   shortest_len = len(word_list[0])
   for word in word_list:
@@ -89,6 +108,7 @@
       shortest_len = len(word) 
   return shortest_len
       </tt></pre>
+          </div>
         </section>
       </section>
 
@@ -181,4 +201,5 @@
     </footer>
   </section>
 </body>
+
 </html>

@@ -17,11 +17,15 @@ h6 {
   color: 000;
 }
 
-a:active, 
-a:hover, 
+a:active,  
 a {
   text-decoration: none;
   color: #000;
+}
+
+a:hover {
+  color: #8AD26D;
+  text-decoration: none;
 }
 
 span {
@@ -90,43 +94,90 @@ main > section {
   text-transform: uppercase;
 }
 
-.contact-info, 
-.skills, 
-.language, 
-.code-example {
+.profile-section {
   width: 100%;
   padding-top: 1em;
 }
-.contact-title, 
-.skills-title, 
-.language-title, 
-.code-example-title {
+
+.profile-title {
   font-size: 2vw;
   text-align: center;
   text-transform: uppercase;
   color: #f4dbc1;
 }
 
-.contact-info ul {
+.profile-section ul {
   padding: 1rem 0;
 }
 
-.contact-info ul li, 
-.skills ul li, 
-.language ul li {
+.profile-section ul li {
   font-size: 1.9vw;
   padding: 0.4rem 0;
   display: flex;
   align-items: center;
 }
 
-.contact-info ul li i, 
-.skills ul li i, 
-.language ul li i {
+.profile-section ul li i {
   padding-right: 1rem;
   font-size: 2vh;
   color:#d19c67;
 }
+
+.progress-bar {
+  width: 100%;
+  height: 1vh;
+  background-color: #73675B;
+  position: relative;
+}
+
+.skills ul li {
+  display: grid;
+}
+
+.progress {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #8AD26D;
+}
+
+
+.frontend-progress {
+  width: 50%;
+}
+
+.git-progress {
+  width: 30%;
+}
+
+.python-progress {
+  width: 80%;
+}
+
+.django-progress {
+  width: 60%;
+}
+
+.sql-progress {
+  width: 70%;
+}
+
+.skill-title {
+  text-transform: uppercase;
+  font-size: 1.5vw;
+
+}
+.code-example h3 {
+  padding: 10px 0 5px 0;
+  color:#d19c67;
+}
+
+.code-block {
+  padding: 0 2%;
+  margin-top: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 
 .rss-logo * {
   width: 10%;
