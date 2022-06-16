@@ -173,11 +173,15 @@ main > section {
 }
 
 .code-block {
-  padding: 0 2%;
+  padding: 2%;
   margin-top: 0.4rem;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.code-example pre {
+  font-size: 1vw;
+  width: 100%;
+}
 
 .rss-logo * {
   width: 10%;
