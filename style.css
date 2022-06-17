@@ -1,1 +1,318 @@
-/* I am a comment! */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  word-break: break-all;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+a:active,
+a
+{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #8AD26D;
+  text-decoration: none;
+}
+
+.footer-git-link:hover,
+.footer-git-link:active,
+.footer-git-link
+{
+  text-decoration: none;
+  color: #000;
+  text-align: center
+}
+
+.language-span {
+  font-weight: bold;
+  color: #F1B376;
+}
+
+body {
+  background-color: #f0c193;
+  background-image: url(https://pomelnikov.com/images/design/50-factures/Facture3.png);
+  background-blend-mode: overlay;
+}
+
+.main-section {
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.main-section {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.introdusing-section {
+  padding: 5%;
+  grid-column: span 2;
+  height: 100%;
+  width: 100%;
+  background-color: #735538;
+}
+
+.profile {
+  width: 100%;
+  border-bottom: 2px solid #8AD26D;
+  padding-bottom: 1rem;
+
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #F4DBC1;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5%;
+}
+
+.position {
+  color: #F1B376;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profile-section {
+  width:auto;
+  max-width:100%;
+  padding-top: 1em;
+}
+
+.profile-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f4dbc1;
+}
+
+.profile-section ul {
+  padding: 0.5rem 0;
+}
+
+.profile-section ul li {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+  align-content: center;
+}
+
+.profile-section ul li i {
+  flex-shrink: 0;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  color: #F1B376
+
+}
+
+.progress-bar {
+  width: 100%;
+  height: 1vh;
+  background-color: #73675B;
+  position: relative;
+}
+
+.skills ul li {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #F1B376;
+}
+
+.progress {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #8AD26D;
+}
+
+.frontend-progress {
+  width: 50%;
+}
+
+.git-progress {
+  width: 30%;
+}
+
+.python-progress {
+  width: 80%;
+}
+
+.django-progress {
+  width: 60%;
+}
+
+.sql-progress {
+  width: 70%;
+}
+
+.code-example h3 {
+  padding: 5px 0 5px 0;
+  color: #F1B376;
+  font-size: 1.3rem;
+}
+
+.code-block {
+  padding: 2%;
+  margin-top: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.code-example pre {
+  font-size: 1.3vh;
+  width: 100%;
+}
+
+.description-section {
+  padding: 5%;
+  grid-column: span 5;
+  height: 100%;
+  background-color: oldlace;
+  display: block;
+}
+
+.description-section > div {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.description-title {
+  color: #735538;;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.description-title::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 0.2rem;
+  border-radius: 10px;
+  background-color: #8AD26D;
+  right: 0;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.description-section p {
+  line-height: 1.7rem;
+  color: #73675B;
+  font-size: 1.1rem;
+}
+
+.education-section {
+  display: block;
+}
+.double-block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.item-description {
+  grid-column: span 1;
+  height: 100%;
+  width: 100%;
+  border-left: 0.0625rem solid #BF8E5E;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.item-title {
+  grid-column: span 1;
+  height: 100%;
+  width: 100%;
+}
+
+.school-name,
+.content-name, 
+.as-h5 {
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: crimson;
+  text-transform: uppercase;
+}
+.as-h5 {
+  font-weight: bold;
+}
+
+.content-name {
+  color:brown;
+}
+
+.item-content {
+  display: block;
+  padding-left: 2rem;
+}
+
+.item-description::before {
+  content: "";
+  position: absolute;
+  width: 1.0625rem;
+  height: 1.0625rem;
+  background-color: #F1B376;
+  border-radius: 50%;
+  left: -0.5625em;
+  top:0;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-bottom: 10px;
+}
+
+.footer-info > a {
+  display: block;
+}
+
+/* Media Querries */
+@media screen and (max-width:950px) {
+  .description-title::after {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .main-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width:660px) {
+  .description-title::after {
+    width: 0%;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .double-block {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .code-section {
+    display:none;
+  }
+}
