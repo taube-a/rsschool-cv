@@ -5,9 +5,13 @@
   list-style: none;
   word-wrap: break-word;
 }
+ h5 {
+  word-break: break-all;
+  
+ }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 a:active,
@@ -52,13 +56,6 @@ body {
   background-color: #735538;
 }
 
-.description-section {
-  padding: 5%;
-  grid-column: span 5;
-  height: 100%;
-  background-color: oldlace;
-}
-
 .profile {
   width: 100%;
   border-bottom: 2px solid #8AD26D;
@@ -73,7 +70,7 @@ body {
 }
 
 .name {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #F4DBC1;
   text-align: center;
   text-transform: uppercase;
@@ -105,7 +102,7 @@ body {
 
 .profile-section ul li {
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.4rem 0;
   align-content: center;
   word-break: break-all;
@@ -130,7 +127,7 @@ body {
   display: block;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #F1B376;
 }
 
@@ -140,7 +137,6 @@ body {
   left: 0;
   background-color: #8AD26D;
 }
-
 
 .frontend-progress {
   width: 50%;
@@ -165,7 +161,7 @@ body {
 .code-example h3 {
   padding: 5px 0 5px 0;
   color: #F1B376;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
 
 .code-block {
@@ -175,7 +171,7 @@ body {
 }
 
 .code-example pre {
-  font-size: 1vh;
+  font-size: 1.3vh;
   word-break: break-all;
   width: 100%;
 }
@@ -183,6 +179,102 @@ body {
 .rss-logo * {
   width: 10%;
 }
+
+.description-section {
+  padding: 5%;
+  grid-column: span 5;
+  height: 100%;
+  background-color: oldlace;
+  display: block;
+}
+
+.description-section > section {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.description-title {
+  color: #735538;;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.description-title::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 0.2rem;
+  border-radius: 10px;
+  background-color: #8AD26D;
+  right: 0;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.description-section p {
+  line-height: 1.7rem;
+  color: #73675B;
+  font-size: 1.1rem;
+}
+
+.education-section {
+  display: block;
+}
+.double-block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.item-description {
+  grid-column: span 1;
+  height: 100%;
+  width: 100%;
+  border-left: 0.0625rem solid #BF8E5E;
+  position: relative;
+}
+
+.item-title {
+  grid-column: span 1;
+  height: 100%;
+  width: 100%;
+}
+
+.school-name,
+.content-name {
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: crimson;
+  text-transform: uppercase;
+}
+
+.content-name {
+  color:brown;
+}
+
+.item-content {
+  display: block;
+  padding-left: 2rem;
+}
+
+.item-description::before {
+  content: "";
+  position: absolute;
+  width: 1.0625rem;
+  height: 1.0625rem;
+  background-color: #F1B376;
+  border-radius: 50%;
+  left: -0.5625em;
+  top:0;
+}
+
+
+
+
+
+
 
 .co {
   color: #F1B376;
